@@ -29,7 +29,15 @@ public class Entity {
     }
 
     public static void main(String[] args) {
-        GameField.printMassive(GameField.getMassive());
+      //  GameField.printMassive(GameField.getMassive());
+
+      //int mass[][]=
+      GameField.generateNumber();
+       /* for (int i = 0; i < mass.length; i++) {
+            for (int j = 0; j < mass[0].length; j++) {
+                System.out.println(mass[i][j]);
+            }
+        }*/
     }
 }
 

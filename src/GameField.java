@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Random;
+
 /**
  * Created by Виктория on 29.06.16.
  */
@@ -26,7 +29,24 @@ public class GameField {
                     {System.out.print("0");}
             }
             System.out.println();
-
         }
     }
-}
+
+    public static ArrayList<Integer> generateNumber (){
+        ArrayList<Integer> listForNumbers = new ArrayList<Integer>();
+        Random random = new Random();
+            for (int i = 0; i < 1; i++) {
+                listForNumbers.add(random.nextInt(36));}
+        int v = 0;
+            while(v<37) {
+            int x = random.nextInt(36);
+                if( listForNumbers.contains(x)) { }
+                else {listForNumbers.add(x);
+                    System.out.println(listForNumbers.get(v) + " els");
+                    v++;
+                }
+            }
+        return listForNumbers;
+         }
+     }
+
