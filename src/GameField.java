@@ -7,18 +7,10 @@ public class GameField {
 
     public static Entity [][] getMassive (){
 
-        Set<Integer> indexes1 = GameField.generateNumber();
-
         Entity massive[][] = new Entity[6][6];
-
-
-        Random random1 = new Random();
-
-
 
         for (int i = 0; i < massive.length; i++) {
             for (int j = 0; j < massive[i].length; j++) {
-
                 Random random = new Random();
                     int number1 = random.nextInt(36);
                         if( number1 > 15 ){
@@ -27,11 +19,12 @@ public class GameField {
                             massive[i][j]= Emptiness.getEmptiness();}
                 }
             }
-        int in1 = random1.nextInt(6);
-        System.out.println(in1);
-        int in2 = random1.nextInt(6);
-        System.out.println(in2);
-        massive[in1][in2] = Dog.getDog();
+
+        Random random1 = new Random();
+            int in1 = random1.nextInt(6);
+            int in2 = random1.nextInt(6);
+                 massive[in1][in2] = Dog.getDog();
+
     return massive;
     }
 
