@@ -7,33 +7,31 @@ public class GameField {
 
     public static Entity [][] getMassive (){
 
-        ArrayList<Integer> indexes1 = GameField.generateNumber();
+        Set<Integer> indexes1 = GameField.generateNumber();
 
         Entity massive[][] = new Entity[6][6];
+
+
+        Random random1 = new Random();
+
+
 
         for (int i = 0; i < massive.length; i++) {
             for (int j = 0; j < massive[i].length; j++) {
 
                 Random random = new Random();
                     int number1 = random.nextInt(36);
-                        if( number1 == 15 ){
+                        if( number1 > 15 ){
                             massive[i][j]= Food.getFood();}
-                        else if (number1 < 5){
+                        else  {
                             massive[i][j]= Emptiness.getEmptiness();}
-                        else {
-                            massive[i][j] = Dog.getDog();
-                        }
-
                 }
             }
-
-
-
-
-
-
-
-
+        int in1 = random1.nextInt(6);
+        System.out.println(in1);
+        int in2 = random1.nextInt(6);
+        System.out.println(in2);
+        massive[in1][in2] = Dog.getDog();
     return massive;
     }
 
@@ -53,15 +51,15 @@ public class GameField {
         }
     }
 
-    public static ArrayList<Integer> generateNumber (){
-        ArrayList<Integer> listForNumbers = new ArrayList<Integer>();
-        Random random = new Random();
-        int i = 0;
-        while ( i < 36 ) {
-            int x = random.nextInt(36);
-            if( listForNumbers.contains(x)) { }
-            else {listForNumbers.add(x); i++;}
-            }
-        return listForNumbers;
+    public static Set<Integer> generateNumber (){
+        Random rng = new Random();
+        Set<Integer> generated = new LinkedHashSet<Integer>();
+        while (generated.size() < 35)
+        {
+            Integer next = rng.nextInt(35) + 1;
+            generated.add(next);
+
          }
+        return generated;
   }
+}

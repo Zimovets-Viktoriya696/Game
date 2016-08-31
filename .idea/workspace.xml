@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/GameField.java" line="44" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/GameField.java" line="42" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45f5966a-199a-4f1d-8c9e-a9277679b8a7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity.java" afterPath="$PROJECT_DIR$/src/Entity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameField.java" afterPath="$PROJECT_DIR$/src/GameField.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -62,7 +61,23 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/GameField.java" line="16" class="GameField" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -75,9 +90,9 @@
       <file leaf-file-name="GameField.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GameField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="832" selection-end="832" vertical-scroll-proportion="0.6974359" vertical-offset="204" max-vertical-offset="1241">
+            <state line="27" column="9" selection-start="714" selection-end="714" vertical-scroll-proportion="1.176923" vertical-offset="0" max-vertical-offset="1207">
               <folding>
-                <element signature="e#1563#1572#0" expanded="true" />
+                <element signature="e#1666#1675#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,7 +101,7 @@
       <file leaf-file-name="Entity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1207">
+            <state line="42" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="-25.16" vertical-offset="0" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
@@ -95,7 +110,7 @@
       <file leaf-file-name="Emptiness.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Emptiness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="442">
+            <state line="11" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -172,8 +187,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -414,7 +429,11 @@
       <created>1468704202296</created>
       <updated>1468704202296</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="method_for_generate_random_numbers&#10;">
+      <created>1472484452399</created>
+      <updated>1472484452421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -501,7 +520,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1105">
           <folding>
-            <element signature="e#1563#1572#0" expanded="true" />
+            <element signature="e#1666#1675#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -538,7 +557,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="85" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1054">
           <folding>
-            <element signature="e#1563#1572#0" expanded="true" />
+            <element signature="e#1666#1675#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -575,7 +594,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
           <folding>
-            <element signature="e#1563#1572#0" expanded="true" />
+            <element signature="e#1666#1675#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -612,7 +631,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <folding>
-            <element signature="e#1563#1572#0" expanded="true" />
+            <element signature="e#1666#1675#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -649,7 +668,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="9" selection-start="111" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
           <folding>
-            <element signature="e#1563#1572#0" expanded="true" />
+            <element signature="e#1666#1675#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -686,7 +705,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="30" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="374">
           <folding>
-            <element signature="e#1563#1572#0" expanded="true" />
+            <element signature="e#1666#1675#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -723,7 +742,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="22" selection-start="57" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="272">
           <folding>
-            <element signature="e#1563#1572#0" expanded="true" />
+            <element signature="e#1666#1675#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -760,7 +779,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="306">
           <folding>
-            <element signature="e#1563#1572#0" expanded="true" />
+            <element signature="e#1666#1675#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -793,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Emptiness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="9554" />
@@ -824,18 +836,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Emptiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1207">
+        <state line="42" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="-25.16" vertical-offset="0" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="832" selection-end="832" vertical-scroll-proportion="0.6974359" vertical-offset="204" max-vertical-offset="1241">
+        <state line="27" column="9" selection-start="714" selection-end="714" vertical-scroll-proportion="1.176923" vertical-offset="0" max-vertical-offset="1207">
           <folding>
-            <element signature="e#1563#1572#0" expanded="true" />
+            <element signature="e#1666#1675#0" expanded="true" />
           </folding>
         </state>
       </provider>
